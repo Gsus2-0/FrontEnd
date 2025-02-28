@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do seu Zé!!</title>
+    <style>
+        body {
+            text-align: center; /* Centraliza o conteúdo do body */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 300px; /* Ajuste conforme necessário */
+            gap: 20px; /* Espaço entre palavras */
+            margin: 0 auto; /* Centraliza a container */
+        }
+        .product-list {
+            margin-top: 20px; /* Espaço acima da lista de produtos */
+        }
+        .product-list ul {
+            display: flex; /* Flexbox para alinhar os itens lado a lado */
+            list-style-type: none; /* Remove os marcadores da lista */
+            padding: 0;
+            justify-content: center; /* Alinha os itens no centro */
+            gap: 20px; /* Espaço entre os itens */
+        }
+        .product-list li {
+            padding: 10px;
+            border: 1px solid #ddd; /* Borda para os itens */
+            border-radius: 5px; /* Bordas arredondadas */
+            width: 120px; /* Largura fixa para os itens */
+        }
+    </style>
+</head>
+<body>
+    <h1>Loja do seu Zé</h1>
+
+    <div class="container">
+        <h3>Produtos</h3>
+        <h3>Atendimento</h3>
+        <h3>Promoções</h3>
+    </div>
+
+    <!-- Lista de produtos -->
+    <div class="product-list">
+        <h3>Lista de Produtos</h3>
+        <ul>
+            <li>Produto 1 - R$ 10,00</li>
+            <li>Produto 2 - R$ 20,00</li>
+            <li>Produto 3 - R$ 30,00</li>
+            <li>Produto 4 - R$ 40,00</li>
+        </ul>
+    </div>
+</body>
+</html>
