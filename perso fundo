@@ -1,0 +1,61 @@
+body{
+ 
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+
+
+  background:linear-gradient(90deg, rgba(0, 255, 0, 0.5), rgba(1, 12, 163, 0.651)),
+  url('iamgens/1985.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  /*animação de transição de cores*/
+  animation: mudarCor 10s linear infinite;
+}
+.font{ 
+  caret-color:aquamarine;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px; 
+  text-align: center;
+  padding: 0%;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;      
+}
+.quadradovaz{
+  background-color: rgb(247, 247, 247);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px; 
+  text-align: center;
+  padding: 20%;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%; 
+}
+.fonta{ 
+  caret-color:aquamarine;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px; 
+  text-align: center;
+  padding: 0%;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;      
+}
