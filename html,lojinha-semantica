@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="file:///C:/Users/PEDROHENRIQUEDUARTE/OneDrive%20-%20Academico%20-%20Secretaria%20do%20Estado%20da%20Educa%C3%A7%C3%A3o%20de%20S%C3%A3o%20Paulo/Frontend/estilo/estilolojinha.css" rel="stylesheet" type="text/css">
+        
+</head>
+<body>
+    <main>
+    <header>
+    <h1>Lojinha</h1>
+     </header></main>
+    <div class="quadradovaz">
+    <section>
+        <h2>Produtos</h2>
+        <article>
+            <h3>Produto 1</h3>
+            <p>Descrição do produto 1</p>
+            <p>R$ 10,00</p>
+            <button>Comprar</button>
+    </section>
+    <section>
+        <h2>Promoções</h2>
+    </section>
+    <section> 
+
+        <h2>Categorias</h2>
+    </section>
+
+</body>
+</html>
