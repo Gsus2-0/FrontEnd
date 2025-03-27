@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Experiências</title>
+    <link href="../css/stylelumina.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="">
+    <style>
+    </style>
+</head>
+<body>
+        <header>
+            <h1> Lumina Experiências </h1>
+</header>
+
+<menu>
+    <ul>
+        
+    
+        <a href="luminahome.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="https://web.whatsapp.com/send?phone=5511917254747">contato</a>
+        <a href="Nosconheça.html">Nos conheça</a>
+    </ul>
+   </menu>
+    <main>
+        <section>
+            <h2>Seja bem vindo a Lumina Experiências</h2>
+            <p> Aqui você encontra os melhores produtos para sua experiência de vida, seja ela qual for. </p>
+        </section>
+        <section>
+            <h2>Produtos</h2>
+            <p> Conheça nossos produtos e escolha o que mais combina com você. </p>
+            <a href="produtos.html"> Conheça nossos produtos </a>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p> Entre em contato conosco para tirar suas dúvidas ou fazer sugestões. </p>
+            <a href="https://web.whatsapp.com/send?phone=5511917254747">Entre em contato</a>
+
+        </section>
+        <section>
+            <h2>Nos conheça</h2>
+            <p> Conheça um pouco mais sobre a Lumina Experiências. </p>
+            <a href="Nosconheça.html"> Nos conheça </a>
+        </section>
+    </main>
+ 
+    <footer>
+        <img src="../imagem/51PfR8E0IFL._AC_SX679_.jpg" alt="imagem" width="200px" height="200px">
+    </footer>
+
+ 
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+Css
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+background-color: darkgray;
+    
+}
+
+header{ 
+
+    
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    /*estilização da fonte*/
+    text-shadow: #ffd2d2 40px 1px 50px;/*brilho em volta da fonte*/
+    color: #f7f7f7;/*cor interna da fonte*/
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*altera a fonte */
+
+
+}
+
+
+menu{  /**/
+
+    
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    
+    text-shadow: #ffffff 1px 1px 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    gap: 20px;
+    margin-bottom: 20px;
+}
+menu a{/*estilização dos links*/
+    
+    text-align: center;
+}
+
+section{
+   width: 100%;
+   height: auto;
+    
+
+
+
+    background-color: #fdfbfb;
+    border: 5px;
+    border-color: #f7f7f7;
+    border-radius: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    
+    
+    
+
+
+
+
+    
+
+}
+main{
+    align-content: center;
+    text-shadow: #f7f7f7;
+    color: #f7f7f7;
+    gap: 20px;
+}
+
+
+footer{
+    aspect-ratio: 2/3;
+    /*posição*/
+    
+
+    width: 250px;
+    display:flex;
+    position: relative;
+    left: 5cm;
+    top: 1cm;
+    
+    align-items: center;
+    border: 5px solid #f7f7f7;
+    border-radius: 20px;
+    border-color: #000000;
+    
+    
+}
+
