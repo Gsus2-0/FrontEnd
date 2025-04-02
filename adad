@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Experiências</title>
+    <link href="../css/stylelumina.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+<body>
+        <header>
+            <div class="img-lumina"><img src="../imagem/Lumina.png" alt="imagem" width="100px" height="100px">
+
+           <div class="sub-titulo"> <ul>
+        
+    
+                <a href="luminahome.html">Home</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="https://web.whatsapp.com/send?phone=5511917254747">contato</a>
+                <a href="Nosconheça.html">Nos conheça</a>
+                
+            </ul>
+           </div>    
+        </div>
+        </header>
+
+
+    <main>
+        <div class="container">
+            <h1><div passion-one-black> Lumina Experiências </div>
+                <br>
+                Transforme sua vida 
+                <br>
+                com nossos produtos inovadores.
+            </h1>
+            
+          
+    
+    
+           <img src="../imagem/Earth Hour 2022 Instagram Post Illustrated Earth Character.png" alt="imagem" width="400px" height="400px">
+        </div>
+    </main>
+ 
+    <footer>
+         <section>
+            <h2>Seja bem vindo a Lumina Experiências</h2>
+            <p> Aqui você encontra os melhores produtos para sua experiência de vida, seja ela qual for. </p>
+        </section>
+        <section>
+            <h2>Produtos</h2>
+            <p> Conheça nossos produtos e escolha o que mais combina com você. </p>
+            <a href="produtos.html"> Conheça nossos produtos </a>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p> Entre em contato conosco para tirar suas dúvidas ou fazer sugestões. </p>
+            <a href="https://web.whatsapp.com/send?phone=5511917254747">Entre em contato</a>
+
+        </section>
+        <section>
+            <h2>Nos conheça</h2>
+            <p> Conheça um pouco mais sobre a Lumina Experiências. </p>
+            <a href="Nosconheça.html"> Nos conheça </a>
+        </section>
+    </footer>
+
+ 
+
+    
+</body>
+</html>
+
