@@ -1,113 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.borda{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-background-color: #050A30;
-    
-     
-    
-}
-
-
-
-.img-lumina{
-    
+.cabeçalho-titulo{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    gap: 36px;
-
-    
-    
-    height: 100px;
-    width: 100%;
-    font-size: 20px;
-    background-color:#050A30;
-    
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom:#f7f7f7 1px solid;
-
-}
-
-.sub-titulo{
-    gap: 36px;
-}
-
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;  
-
-
-
-}
-menu{  /**/
-
-    
-
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    
-    height: 100px;
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    
-    text-shadow: #ffffff 1px 1px 1px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-    gap: 20px;
-    margin-bottom: 20px;
+
+    background: #ffffff;
 }
-menu a{/*estilização dos links*/
-    
-    text-align: center;
-}
-
-section{
-   width: 100%;
-   height: auto;
-    
-
-
-
-    color:#f7f7f7;
-    border: 5px;
-    
-    border-radius: 20px;
-    text-align: center;
-    
-    padding: 20px;
-    
-    
-    
-
-
-
-
-    
-
-}
-main{
-    align-content: center;
-    text-shadow: #f7f7f7;
-    color: #f7f7f7;
-    gap: 20px;
-}
-
-.passion-one-black {
-    font-family: "Passion One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
