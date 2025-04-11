@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro site</title>
     <link href ="../Models/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
    
@@ -16,9 +19,28 @@
  </div>   </header>
 
 
-    <main> <div class="Imgs">
-        <img src ="../Views/White and Blue Clean Minimal Real Estate Presentation.jpg " alt="Imagem de fundo" class="img"   width="100%" height="2000px">
-        <p>adfaad</p>
+    <main>
+        
+        <nav>
+        <div class="Imgs">
+        <section>
+        <img class="img" src="../Views/White and Blue Clean Minimal Real Estate Presentation.jpg" alt="Imagem de uma casa" width="2000" height="1000">
+         </nav>   
+    </section><section>
+            <div class="text"><h3> Este site foi estruturado<br> para uma <br>simples demontração de um Prédio comercial</h3>
+        </section> 
+           
+</div>
+
+
+
+
    </div> </main>
+
+   <footer>
+    <div class="Rodapé">
+        <h1> Meu primeiro site!</h1>
+    </div>
+   </footer>
 </body>
 </html>
